@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player:Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav_option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+            
+            <div class="nav_option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">search</a>
+            </div>
+        </div>
+        <div class="library">
+            <div class="options">
+                <div class="lib_options nav_option">
+                    <img src="./images/library_icon.png">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="box_1">
+                    <h4>Create your first playlist</h4>
+                    <p>it's easy, we'll help you</p>
+                    <button>Create playlist</button>
+                </div>
+                <div class="box_2">
+                    <h4>Let's find some podcasts to follow</h4>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button>browse podcasts</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="main_content">
+            <div class="sticky_nav">
+                <div class="sticky_nav_left">
+                <img src="./images/backward_icon.png" >
+                <img src="./images/forward_icon.png" class="hide" >
+                </div>
+                <div class="sticky_nav_right">
+                <button class="exp_pre hide">Explore Premium</button>
+                <button class="ins_app"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+            <div class="album">
+                <h2>Recently played</h2>
+                <div class="cards_container">
+                    <div class="card">
+                        <img src="./images/card1img.jpeg" class="card_img">
+                        <p class="card_title">Top 50 - Global</p>
+                        <p class="card_info">Your daily update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card6img.jpeg" class="card_img">
+                        <p class="card_title">Top 50 - Indian</p>
+                        <p class="card_info">Your daily update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card5img.jpeg" class="card_img">
+                        <p class="card_title">Top 50 - Indian</p>
+                        <p class="card_info">Your daily update of the most played...</p>
+                    </div>
+                </div>
+                <h2>Trending now near you</h2>
+                <div class="cards_container">
+                    <div class="card">
+                        <img src="./images/card2img.jpeg" class="card_img">
+                        <p class="card_title">Mahiye Jinna Sohna</p>
+                        <p class="card_info">Darshan Raval</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card3img.jpeg" class="card_img">
+                        <p class="card_title">Mahiye Jinna Sohna</p>
+                        <p class="card_info">Darshan Raval</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card4img.jpeg" class="card_img">
+                        <p class="card_title">Mahiye Jinna Sohna</p>
+                        <p class="card_info">Darshan Raval</p>
+                    </div>
+                    
+                    
+                </div>   
+                <h2>Featured Charts</h2>
+                <div class="cards_container">
+                    <div class="card">
+                        <img src="./images/card1img.jpeg" class="card_img">
+                        <p class="card_title">Top 50 - Global</p>
+                        <p class="card_info">Your daily update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card6img.jpeg" class="card_img">
+                        <p class="card_title">Top 50 - Indian</p>
+                        <p class="card_info">Your daily update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card5img.jpeg" class="card_img">
+                        <p class="card_title">Top 50 - Indian</p>
+                        <p class="card_info">Your daily update of the most played...</p>
+                    </div> 
+                   
+            </div>
+            <div class="footer">
+                <div class="line">
+                    
+                </div>
+            </div>
+
+
+        </div>
+        
+    </div>
+    <div class="music_player">
+        <div class="track">
+            <img src="./images/album_picture.jpeg" >
+            <div class="song">
+            <p class="song_name">Daylight</p>
+            <p class="singer">David Kushner</p>
+            </div>
+            <div class="album_icons">
+            <img src="./images/album_icon1.png" class="album_icon" ></img>
+            <img src="./images/album_icon2.png" class="album_icon" ></img>
+        </div>
+        </div>
+        <div class="player">
+            <div class="player_controls">
+            <img src="./images/player_icon1.png" class="player_control_icon">
+            <img src="./images/player_icon2.png" class="player_control_icon">
+            <img src="./images/player_icon3.png" class="player_control_icon1">
+            <img src="./images/player_icon4.png" class="player_control_icon">
+            <img src="./images/player_icon5.png" class="player_control_icon">
+            </div>
+            <div class="playback_bar">
+                <span class="curr_time">00:00</span>
+                <input type="range" min="0" max="100" class="progress-bar">
+                <span class="tot_time">3:33</span>
+            </div>
+        </div>
+        <div class="controls">
+            <img src="./images/controls_icon1.png" class="controls_img" >
+            <img src="./images/controld_icon2.png" class="controls_img">
+            <img src="./images/controls_icon3.png" class="controls_img" style="height: 1rem ; width: 1rem;">
+            <img src="./images/controls_icon4.png" class="controls_img" style="height: 1rem; width: 1rem;">
+            <img src="./images/controls_icon5.png" class="controls_img">
+            <input type="range" min="0" max="100" class="progress-bar zaz">
+            <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
